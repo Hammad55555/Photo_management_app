@@ -32,5 +32,11 @@ return [
         'VIEW_COMPILED_PATH',
         realpath(storage_path('framework/views'))
     ),
+    'aliases' => [
+        // Other aliases...
+    
+        'Route' => Illuminate\Support\Facades\Route::class,
+    ],
+    
 
 ];
