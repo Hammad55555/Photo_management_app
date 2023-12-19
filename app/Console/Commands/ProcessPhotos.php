@@ -11,7 +11,7 @@ class ProcessPhotos extends Command
 
     public function handle()
     {
-        $folderPath = public_path('photos'); // Adjust the folder path as needed
+        $folderPath = public_path('photos');
 
         // Call the Python script
         $output = [];
